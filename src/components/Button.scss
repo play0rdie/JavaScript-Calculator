@@ -1,0 +1,36 @@
+.btn {
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 1px solid black;
+    border: none;
+    background: #4d4d4d;
+    font-family: Share Tech Mono, monospace;
+    font-size: 20px;
+    cursor: default;
+    &:hover {
+        color: black;
+        outline: .05em solid grey;
+        z-index: 3;
+    }
+}
+
+.wide {
+    width: 160px;
+}
+
+.red {
+    background: rgb(172, 57, 57) none repeat scroll 0% 0%;
+}
+
+.grey {
+    background: rgb(102, 102, 102) none repeat scroll 0% 0%;
+}
+
+.equals {
+    background: rgb(0, 68, 102) none repeat scroll 0% 0%;
+    position: absolute;
+    height: 130px;
+    bottom: 5px;
+}
